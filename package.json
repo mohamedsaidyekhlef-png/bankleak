@@ -6,7 +6,7 @@
   "bin": { "bankleak": "bin/bankleak.mjs" },
   "exports": { ".": "./src/detect.mjs", "./read": "./src/read.mjs" },
   "files": ["bin", "src", "SKILL.md", "README.md", "LICENSE"],
-  "scripts": { "test": "node --test test/*.test.mjs" },
+  "scripts": { "test": "node --test test/bankleak.test.mjs" },
   "engines": { "node": ">=18" },
   "keywords": ["personal-finance", "bank-statement", "subscriptions", "bank-fees", "csv", "ofx", "budget", "privacy", "local-first", "agent-skill", "claude-code"],
   "author": "Mohamed Said Yekhlef",
