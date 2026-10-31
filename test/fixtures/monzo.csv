@@ -1,0 +1,5 @@
+Transaction ID,Date,Time,Type,Name,Emoji,Category,Amount,Currency,Local amount,Local currency,Notes and #tags,Address,Receipt,Description,Category split,Money Out,Money In
+tx_1,01/08/2026,09:00:00,Card payment,Spotify,🎵,Entertainment,-11.99,GBP,-11.99,GBP,,,,SPOTIFY P1234,,-11.99,
+tx_2,01/09/2026,09:00:00,Card payment,Spotify,🎵,Entertainment,-11.99,GBP,-11.99,GBP,,,,SPOTIFY P1234,,-11.99,
+tx_3,01/10/2026,09:00:00,Card payment,Spotify,🎵,Entertainment,-11.99,GBP,-11.99,GBP,,,,SPOTIFY P1234,,-11.99,
+tx_4,15/09/2026,12:00:00,Faster payment,Rent,,Bills,-950.00,GBP,-950.00,GBP,,,,RENT SEPT,,-950.00,

@@ -1,0 +1,16 @@
+{
+  "name": "bankleak",
+  "version": "0.1.0",
+  "description": "Your bank statement is leaking money. Finds bank fees, price rises, forgotten and overlapping subscriptions and duplicate charges in any CSV or OFX export, entirely on your computer.",
+  "type": "module",
+  "bin": { "bankleak": "bin/bankleak.mjs" },
+  "exports": { ".": "./src/detect.mjs", "./read": "./src/read.mjs" },
+  "files": ["bin", "src", "SKILL.md", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "engines": { "node": ">=18" },
+  "keywords": ["personal-finance", "bank-statement", "subscriptions", "bank-fees", "csv", "ofx", "budget", "privacy", "local-first", "agent-skill", "claude-code"],
+  "author": "Mohamed Said Yekhlef",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/mohamedsaidyekhlef-png/bankleak.git" },
+  "homepage": "https://github.com/mohamedsaidyekhlef-png/bankleak#readme"
+}

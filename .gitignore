@@ -1,0 +1,8 @@
+node_modules
+*.log
+bankleak-report.*
+# never commit real statements
+*.ofx
+*.qfx
+statements/
+!test/fixtures/**
